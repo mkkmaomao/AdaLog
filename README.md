@@ -21,6 +21,16 @@ Use the BGL dataset as an example, the corresponding pre-trained model with diff
 
 ## Reproducibility
 ### Requirements
+Python 3.6+
+tensorflow-gpu 2.4
+transformers
+tf-models-official 2.4.0
+scikit-learn
+pandas
+numpy
+gensim
+keras 
+
 ### Anomaly Detection
 ```
 .
@@ -43,4 +53,6 @@ Use the BGL dataset as an example, the corresponding pre-trained model with diff
 │   └── transformer_classification               
 └── results_example                      
     └── BGL
+
+***
 
