@@ -17,7 +17,7 @@ This is the basic implementation of CustomLog in ICSE 2023.
 ## Datasets
 The raw data has been found here: [HDFS](https://figshare.com/articles/dataset/HDFS/20472282), [BGL](https://figshare.com/articles/dataset/BGL/20472270), and [Thunderbird](https://figshare.com/articles/dataset/Thunderbird/20472297).
 
-Use the BGL dataset as an example, the corresponding pre-trained model with different window size (i.e., ws=20, 100, and 200) can be obtained: [pre-trained models] (https://figshare.com/articles/software/Pre-trained_model_for_BGL/20472333)
+Use the BGL dataset as an example, the corresponding pre-trained model with different window size (i.e., ws=20, 100, and 200) can be obtained: [pre-trained models](https://figshare.com/articles/software/Pre-trained_model_for_BGL/20472333)
 
 ## Reproducibility
 ### Requirements
