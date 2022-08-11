@@ -91,7 +91,7 @@ In order to quickly implement CustomLog, we use BGL dataset as an example.
 
 3. For BGL, the corresponding pre-trained models with different window sizes (i.e., ws=20, 100, and 200) can be obtained here: [pre-trained models](https://figshare.com/articles/software/Pre-trained_model_for_BGL/20472333)
  
-3. You only need to **run *model/transformer_classification.py*** for prediction, and the results should be the same as the following results.
+4. You only need to **run *model/transformer_classification.py*** for prediction, and the results should be the same as the following results.
 
 ## Results
 ![Results](https://github.com/ICSE2023/CustomLog/blob/main/figures/Results.png)
