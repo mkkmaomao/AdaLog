@@ -63,22 +63,22 @@ keras
     └── BGL
 ```
 *** 
-**Step 1:**
+- **Step 1:**
 Create three folders with the corresponding DATASET_NAME (i.e., HDFS, BGL, and Thunderbird) under the directory *data/raw*, and download the raw datasets based on the above introduction, then put them into the created folders. 
 
-**Step2:** 
+- **Step2:** 
 Run the *data_loader.py* for generating embeddings for each dataset, and put the generated files into the folder *data/embedding/DATASET_NAME*.
 
-**Step3:**
+- **Step3:**
 If you would like to conduct undersampling, please run the file *preprocessing/undersampling.py*. According to the self-defined undersampling rules, you can adjust the parameter *p* as the undersampling ratio of normal and abnormal logs.
 
-**Step4:** 
+- **Step4:** 
 Run *clusters/elbow_k.py* to calculate the optimal two *k* values under the following ranges $k_1\in (11,15], k_2\in (35, 50]$.
 
-**Step5:** 
+- **Step5:** 
 Run *clusters/clustering.py* and *clusters/clustering_prob.py* to get the label probability $P_{normal}$ for each log sequence.
 
-**Step6:** 
+- **Step6:** 
 Run *model/transformer_classification.py* for model training and prediction.
 
 **NOTE:**
