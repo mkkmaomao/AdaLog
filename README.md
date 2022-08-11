@@ -81,6 +81,7 @@ Run *clusters/clustering.py* and *clusters/clustering_prob.py* to get the label 
 - **Step6:** 
 Run *model/transformer_classification.py* for model training and prediction.
 
+*** 
 **NOTE:**
 In order to quickly implement CustomLog, we use BGL dataset as an example. 
 
