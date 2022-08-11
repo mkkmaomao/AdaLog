@@ -7,7 +7,7 @@ This is the basic implementation of CustomLog in ICSE 2023.
   - Reproducibility
     - Requirements
     - Anomaly Detection
-    - Results
+  - Results
 
 ## Abstract
 
@@ -92,5 +92,5 @@ In order to quickly implement CustomLog, we use BGL dataset as an example.
  
 3. You only need to **run *model/transformer_classification.py*** for prediction, and the results should be the same as the following results.
 
-### Results
+## Results
 ![Results](https://github.com/ICSE2023/CustomLog/blob/main/figures/Results.png)
