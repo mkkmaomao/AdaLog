@@ -17,7 +17,9 @@ This is the basic implementation of CustomLog in ICSE 2023.
 ## Datasets
 The raw data has been found here: [HDFS](https://figshare.com/articles/dataset/HDFS/20472282), [BGL](https://figshare.com/articles/dataset/BGL/20472270), and [Thunderbird](https://figshare.com/articles/dataset/Thunderbird/20472297).
 
-The embedding data can be obtained via 1) running the *data_loader.py* file; 2) the generated files in the *data/embedding* folder.
+The embedding data can be obtained via running the *data_loader.py* file; 
+
+For fast test, the generated embedding data of the BGL dataset can be found in the *data/embedding/BGL* folder. 
 
 Use the BGL dataset as an example, the corresponding pre-trained models with different window sizes (i.e., ws=20, 100, and 200) can be obtained here: [pre-trained models](https://figshare.com/articles/software/Pre-trained_model_for_BGL/20472333)
 
@@ -65,4 +67,5 @@ keras
     └── BGL
 ```
 ***
-
+#### Step 1: 
+#### Step 2: 
