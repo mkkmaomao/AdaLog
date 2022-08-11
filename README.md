@@ -49,18 +49,18 @@ keras
 │   ├── data_loader
 │   └── undersampling
 ├── clusters                       
-│   ├── BGL
+│   ├── BGL  # for demo
 │       ├── ws=20
 │       ├── ws=100
 │       └── ws=200
 │   ├── clustering                
 │   ├── clustering_prob         
 │   ├── elbow_k                
-│   └── HDBSCAN_clustering              
+│   └── HDBSCAN_clustering  # the clustering method is applied in PLELog            
 ├── model
 │   └── transformer_classification               
 └── results_example                      
-    └── BGL
+    └── BGL # for demo
 ```
 *** 
 - **Step 1:**
