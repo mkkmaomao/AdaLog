@@ -22,20 +22,22 @@ This is the basic implementation of CustomLog in ICSE 2023.
 ```
 .
 ├── data                   
-│   ├── embedding
-│   ├── raw
+│   ├── embedding  
+│   └── raw
 ├── preprocessing
-│   │   ├── data_loader
-│   │   └── undersampling
-├── clusters                       // 应用
+│   ├── data_loader
+│   └── undersampling
+├── clusters                       
 │   ├── BGL
-│   │   ├── ws=20
-│   │   ├── ws=100
-│   │   └── ws=200
-│   ├── clustering                // 开发环境
-│   ├── clustering_prob         // 实验
-│   ├── elbow_k                // 配置控制
-│   └── HDBSCAN_clustering              // 本地
+│       ├── ws=20
+│       ├── ws=100
+│       └── ws=200
+│   ├── clustering                
+│   ├── clustering_prob         
+│   ├── elbow_k                
+│   └── HDBSCAN_clustering              
 ├── model
-│   └── transformer_classification               // 测试环境
+│   └── transformer_classification               
+├── results_example                      
+│   └── BGL
 
