@@ -18,8 +18,7 @@ This is the basic implementation of CustomLog in ICSE 2023.
 The raw data has been found here: [HDFS](https://figshare.com/articles/dataset/HDFS/20472282), [BGL](https://figshare.com/articles/dataset/BGL/20472270), and [Thunderbird](https://figshare.com/articles/dataset/Thunderbird/20472297).
 
 The embedding data can be obtained via running the *data_loader.py* file; 
-
-For fast test, the generated embedding data of the BGL dataset can be found in the *data/embedding/BGL* folder. 
+for fast test, the generated embedding data of the BGL dataset can be found in the *data/embedding/BGL* folder. 
 
 Use the BGL dataset as an example, the corresponding pre-trained models with different window sizes (i.e., ws=20, 100, and 200) can be obtained here: [pre-trained models](https://figshare.com/articles/software/Pre-trained_model_for_BGL/20472333)
 
@@ -66,6 +65,15 @@ keras
 └── results_example                      
     └── BGL
 ```
-***
-#### Step 1: 
-#### Step 2: 
+*** 
+Step 1: Create three folders with the corresponding DATASET_NAME (i.e., HDFS, BGL, and Thunderbird) under the directory *data/raw*, and download the raw datasets based on the above introduction, then put them into the created folders. 
+Step 2: Run the *data_loader.py* for generating embeddings for each dataset, and move the generated files (plain text, each raw contains one log message) into the folder *data/embedding/DATASET_NAME*.
+Step 3: If you would like to conduct undersampling, please run the file *preprocessing/undersampling.py*. According to the self-defined undersampling rules, you can adjust the parameter *p* as the undersampling ratio of normal and abnormal logs.
+Step 4: Run *clusters/elbow_k.py* to calculate the optimal two *k* values under the following ranges `$k_1\in (11,15], k_2\in (35, 50]$`.
+Step 5: Run *clusters/clustering.py* and *clusters/clustering_prob.py* to get the label probability `$P_{normal}$`.
+Step 6: Run Run *model/transformer_classification.py* for training and prediction.
+
+**NOTE:**
+
+(make sure it has proper parameters).
+
