@@ -43,22 +43,22 @@ keras
 ```
 .
 ├── data                   
-│   ├── embedding  
+│   ├── embedding     # for demo  
 │   └── raw
 ├── preprocessing
-│   ├── data_loader
-│   └── undersampling
+│   ├── data_loader     # for word embedding    
+│   └── undersampling     
 ├── clusters                       
 │   ├── BGL  # for demo
 │       ├── ws=20
 │       ├── ws=100
 │       └── ws=200
-│   ├── clustering                
-│   ├── clustering_prob         
-│   ├── elbow_k                
+│   ├── clustering     # use the obtained k for K-Means clustering; for each log seq, calculate the probability of being normal           
+│   ├── clustering_prob     # combine the probability results for each log sequence   
+│   ├── elbow_k     # generate the optimal k         
 │   └── HDBSCAN_clustering  # the clustering method is applied in PLELog            
 ├── model
-│   └── transformer_classification               
+│   └── transformer_classification     # model training and prediction               
 └── results_example                      
     └── BGL # for demo
 ```
