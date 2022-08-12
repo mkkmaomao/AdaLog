@@ -16,7 +16,6 @@ This is the basic implementation of CustomLog in ICSE 2023.
 
 ## Datasets
 The raw data has been found here: [HDFS](https://figshare.com/articles/dataset/HDFS/20472282), [BGL](https://figshare.com/articles/dataset/BGL/20472270), and [Thunderbird](https://figshare.com/articles/dataset/Thunderbird/20472297).
-The embedding data can be obtained via running the *data_loader.py* file.
 
 
 ## Reproducibility
