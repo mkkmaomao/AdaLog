@@ -311,7 +311,6 @@ def test_model(x, y, batch_size, epochs):
 
     # x, y = shuffle(x, y)
     x, y = x[: len(x) // batch_size * batch_size], y[: len(y) // batch_size * batch_size]
-    # changed from spirit_5m
     # x, y = x[: int(len(x))], y[: int(len(y))]
     print("y: ", len(y))
     test_loader = BatchGenerator(x, y, batch_size)
