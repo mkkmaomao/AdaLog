@@ -1,6 +1,6 @@
-# CustomLog
-This is the basic implementation of CustomLog in ICSE 2023.
-- CustomLog
+# AdaUsLog
+This is the basic implementation of AdaUsLog in ICSE 2023.
+- AdaUsLog
   - Abstract
   - Framwork
   - Datasets
@@ -12,7 +12,7 @@ This is the basic implementation of CustomLog in ICSE 2023.
 ## Abstract
 
 ## Framework
-![Framework](https://github.com/ICSE2023/CustomLog/blob/main/figures/Framework.png)
+![Framework](https://github.com/ICSE2023/AdaUsLog/blob/main/figures/Framework.png)
 
 ## Datasets
 The raw data has been found here: [HDFS](https://figshare.com/articles/dataset/HDFS/20472282), [BGL](https://figshare.com/articles/dataset/BGL/20472270), and [Thunderbird](https://figshare.com/articles/dataset/Thunderbird/20472297).
@@ -82,7 +82,7 @@ Run *model/transformer_classification.py* for model training and prediction.
 
 *** 
 **NOTE:**
-In order to quickly implement CustomLog, we use BGL dataset as an example. 
+In order to quickly implement AdaUsLog, we use BGL dataset as an example. 
 
 1. By executing Step 1-3, the generated files can be founded in *data/embedding/BGL* folder. It contains the word embeddings of the training set with/without undersampling and the test set. The parameter *p* or *per* is defined as the undersampling ratio of normal and abnormal logs. For BGL, the values are 8 (ws=20), 7 (ws=100), and 6 (ws=200). 
 
@@ -93,4 +93,4 @@ In order to quickly implement CustomLog, we use BGL dataset as an example.
 4. You only need to **run *model/transformer_classification.py*** for prediction, and the results should be the same as the following results.
 
 ## Results
-![Results](https://github.com/ICSE2023/CustomLog/blob/main/figures/Results.png)
+![Results](https://github.com/ICSE2023/AdaUsLog/blob/main/figures/Results.png)
