@@ -1,5 +1,5 @@
 # AdaLog
-This is the basic implementation of AdaLog in ICSE 2023.
+This is the basic implementation of AdaLog in IEEE Transactions on Industrial Informatics.
 - AdaLog
   - Abstract
   - Framwork
