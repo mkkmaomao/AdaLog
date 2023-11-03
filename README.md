@@ -1,6 +1,7 @@
-# AdaLog
+# AdaLog: A Semi-supervised Approach for Industrial Anomaly Detection via Self-adaptive Clustering 
+This work has been published in IEEE Transactions on Industrial Informatics.
 
-For the details, please refer to the following GitHub link:
+For the basic implementation details, please refer to the following GitHub link:
 https://github.com/LogAnomalyAnalysis/AdaLog
 
-Sorry for any inconvenience!
+We apologize for any inconvenience!
