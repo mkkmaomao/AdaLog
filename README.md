@@ -72,7 +72,7 @@ Run the *data_loader.py* for generating embeddings for each dataset, and put the
 If you would like to conduct undersampling, please run the file *preprocessing/undersampling.py*. According to the self-defined undersampling rules, you can adjust the parameter *p* as the undersampling ratio of normal and abnormal logs.
 
 - **Step4:** 
-Run *clusters/elbow_k.py* to calculate the optimal two *k* values under the following ranges $k_1\in (11,15], k_2\in (35, 50]$.
+Run *clusters/elbow_k.py* to calculate the optimal two *k* values under the following ranges $k\in (10, 50]$.
 
 - **Step5:** 
 Run *clusters/clustering.py* and *clusters/clustering_prob.py* to get the label probability $P_{normal}$ for each log sequence.
@@ -86,7 +86,7 @@ In order to quickly implement AdaLog, we use BGL dataset as an example.
 
 1. By executing Step 1-3, the generated files can be founded in *data/embedding/BGL* folder. It contains the word embeddings of the training set with/without undersampling and the test set. The parameter *p* or *per* is defined as the undersampling ratio of normal and abnormal logs. For BGL, the values are 8 (ws=20), 7 (ws=100), and 6 (ws=200). 
 
-2. The *k* values and the label probability are calculated, which can be obtained in *clusters/BGL* folder. 
+2. The *k* values and the label probability are calculated, which can be obtained in *clusters/BGL* folder. We provide the label probability of log sequences in BGL with ws=200 for reproducing:[label probability](https://figshare.com/articles/dataset/Probability_BGL_ws_200/25523665)
 
 3. For BGL, the corresponding pre-trained models with different window sizes (i.e., ws=20, 100, and 200) can be obtained here: [pre-trained models](https://figshare.com/articles/software/Pre-trained_model_for_BGL/20472333)
  
